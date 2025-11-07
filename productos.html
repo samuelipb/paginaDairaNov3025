@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conoce más sobre nuestra empresa, misión, visión y valores">
+    <meta name="keywords" content="empresa, misión, visión, quiénes somos">
+    <meta name="author" content="Mi Empresa">
+    
+    <title>Nosotros - Mi Empresa</title>
+    
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav id="mainNav">
+            <a href="index.html" class="nav-logo" aria-label="Raticky - Inicio">
+                <img src="images/logo.jpg" alt="Logo Raticky" onerror="this.src='https://via.placeholder.com/48/FFFFFF/CCCCCC?text=R';">
+            </a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-btn">Inicio</a>
+                <a href="nosotros.html" class="nav-btn active">Nosotros</a>
+                <a href="productos.html" class="nav-btn">Productos</a>
+                <a href="contacto.html" class="nav-btn">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección de tarjetas flip -->
+        <div class="flip-cards-container">
+            <!-- Tarjeta 1 -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="images/producto1.jpg" alt="Producto 1" 
+                             onerror="this.src='https://via.placeholder.com/300x400/FF8C42/FFFFFF?text=Imagen+1'">
+                    </div>
+                    <div class="flip-card-back">
+                        <h3>Pines sorpresas</h3>
+                        <p>NProducto ecoamigable producido con tapas reciclables y una chispa de estilo que cause nostalgia en tu corazón</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 2 -->
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="images/producto2.jpg" alt="Producto 2"
+                             onerror="this.src='https://via.placeholder.com/300x400/FF8C42/FFFFFF?text=Imagen+2'">
+                    </div>
+                    <div class="flip-card-back">
+                        <h3>Dodo-Cajas</h3>
+                        <p>Producto ecoamigable producido con cartulina reciclada para darle un segundo uso y a su vez dejar en ella los recuerdos más felices de nuestra infancia.</p>
+                    </div>
+                </div>
+            </div>
+
+        
+        </div>
+
+        <!-- Sección de video -->
+        <div class="video-container">
+            <video id="mainVideo" controls poster="images/video-poster.jpg">
+                <source src="videos/presentacion.mp4" type="video/mp4">
+                <source src="videos/presentacion.webm" type="video/webm">
+                Tu navegador no soporta el elemento de video.
+            </video>
+            
+        </div>
+    </main>
+    <div id="footerPlaceholder"></div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

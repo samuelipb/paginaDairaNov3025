@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ponte en contacto con Mi Empresa. Env&iacute;a tus preguntas, solicita cotizaciones y recibe soporte personalizado.">
+    <meta name="keywords" content="contacto, formulario, soporte, informaci&oacute;n">
+    <meta name="author" content="Mi Empresa">
+    
+    <title>Contacto - Mi Empresa</title>
+    
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav id="mainNav">
+            <a href="index.html" class="nav-logo" aria-label="Raticky - Inicio">
+                <img src="images/logo.png" alt="Logo Raticky" onerror="this.src='https://via.placeholder.com/48/FFFFFF/CCCCCC?text=R';">
+            </a>
+            <div class="nav-links">
+                <a href="index.html" class="nav-btn">Inicio</a>
+                <a href="nosotros.html" class="nav-btn">Nosotros</a>
+                <a href="productos.html" class="nav-btn">Productos</a>
+                <a href="contacto.html" class="nav-btn active">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-page">
+            <h1 class="page-title">Cont&aacute;ctanos</h1>
+            <p class="contact-intro">
+                Nos encanta escuchar tus ideas, resolver dudas y acompa&ntilde;arte en cada proyecto.
+                Completa el formulario o utiliza los datos de contacto para hablar con nuestro equipo.
+            </p>
+
+            <div class="contact-layout">
+                <article class="content-card contact-info">
+                    <h2>Informaci&oacute;n de contacto</h2>
+                    <p>
+                        Escr&iacute;benos o ll&aacute;manos y recibir&aacute;s una respuesta dentro de las pr&oacute;ximas 24 horas h&aacute;biles.
+                    </p>
+
+                    <ul class="contact-details">
+                        <li>
+                            <span>Correo electr&oacute;nico</span>
+                            <a href="mailto:ratickycajas@gmail.com">ratickycajas@gmail.com</a>
+                        </li>
+                        <li>
+                            <span>Tel&eacute;fono</span>
+                            <a href="tel:+573213403111">+57 321 340 3111</a>
+                        </li>
+                        <li>
+                            <span>Direcci&oacute;n</span>
+                            <strong>Instituto Psicopedagogico Integral I.PS.I</strong>
+                        </li>
+                    </ul>
+
+                    <div class="contact-hours">
+                        <h3>Horarios de atenci&oacute;n</h3>
+                        <p>Lunes a viernes: 9:00 a. m. - 6:00 p. m.</p>
+                        <p>S&aacute;bados: 9:00 a. m. - 1:00 p. m.</p>
+                    </div>
+                </article>
+
+                <article class="content-card contact-form-card">
+                    <h2>Formulario de contacto</h2>
+                    <form id="contactForm" action="#" method="post" class="contact-form" novalidate>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="name">Nombre completo</label>
+                                <input type="text" id="name" name="name" placeholder="Nombre y apellido" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Correo electr&oacute;nico</label>
+                                <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Tel&eacute;fono</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+57 300 123 4567">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Asunto</label>
+                                <input type="text" id="subject" name="subject" placeholder="Motivo del mensaje" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Cu&eacute;ntanos c&oacute;mo podemos ayudarte" required></textarea>
+                        </div>
+
+                        <button type="submit" class="contact-submit">Enviar mensaje</button>
+                    </form>
+                </article>
+            </div>
+        </section>
+    </main>
+    <div id="footerPlaceholder"></div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
